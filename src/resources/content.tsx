@@ -22,7 +22,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/teu-username",
+    link: "https://github.com/saralondreira",
     essential: true,
   },
   {
@@ -148,7 +148,7 @@ const about: About = {
         description: <>CTESP in Agile Software Development (2025 - 2027). Practical focus on Software Engineering, intensive emphasis on Agile Methodologies (Scrum), software development lifecycle, and collaborative teamwork.</>,
       },
       {
-        name: "IEFP | Centro Qualifica",
+        name: "IEFP | Instituto Emprego e Formação Profissional",
         description: <>Specialization (CET Level 5) in Information Systems Technology and Programming (Nov 2025 - Nov 2026). Focus on Algorithms (C#, Python), Databases, Security, and Mobile Development (Android).</>,
       },
       {

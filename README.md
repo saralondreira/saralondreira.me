@@ -1,91 +1,42 @@
-# Magic Portfolio
+# Sara Londreira | Portfolio 🚀
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+Welcome to my professional portfolio! I am a **Software Engineering Student** based in Aveiro, Portugal, currently transitioning into the tech industry with a strong focus on Agile methodologies and robust software development.
 
-View the demo [here](https://demo.magic-portfolio.com).
+## 👩‍💻 About Me
+With a solid background in technology retail, I've developed exceptional communication, teamwork, and technical diagnostic skills. I am now leveraging that experience to build efficient software solutions while consolidating my foundations in programming and systems architecture.
 
-![Magic Portfolio](public/images/og/home.jpg)
+- **Current Status:** Pursuing a CTESP in **Agile Software Development** at ISEP.
+- **Methodology:** Focused on **Agile (Scrum)** and the full software development lifecycle.
+- **Goal:** Actively seeking opportunities to contribute to challenging projects and continuously grow as a developer.
 
-## Getting started
+## 🛠️ Technical Stack
+### Programming Languages
+- **Foundational:** C, C++, Java, Python.
+- **Web & Mobile:** JavaScript, HTML/CSS, Android.
+- **Databases:** SQL.
 
-**1. Clone the repository**
-```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+### Systems & Tools
+- **Version Control:** Git.
+- **Environment:** Linux / Shell.
+- **Process:** Scrum and Agile Development.
 
-**2. Install dependencies**
-```
-npm install
-```
+## 📂 Featured Projects
+- **Pedagogical Platform:** A web-based application currently in development.
+- **Hospital Management System:** Developed using Java.
+- **TVDE Mobile App:** Android development project.
 
-**3. Run dev server**
-```
-npm run dev
-```
+## 🎓 Education & Certifications
+- **ISEP:** Agile Software Development (2025 - 2027).
+- **IEFP:** Information Systems Technology and Programming (2025 - 2026).
+- **42 Porto:** Programming Bootcamp (Piscine) - Intensive immersion in C and Shell.
+- **Multimedia Technician:** Professional Course with a highlight in Information Systems.
 
-**4. Edit config**
-```
-src/resources/once-ui.config.js
-```
+## 🌐 Connect with Me
+I'm always open to discussing new projects or tech opportunities!
 
-**5. Edit content**
-```
-src/resources/content.js
-```
+- **LinkedIn:** [linkedin.com/in/saralondreira](https://www.linkedin.com/in/saralondreira)
+- **GitHub:** [github.com/saralondreira](https://github.com/saralondreira)
+- **Email:** [saralondreira@gmail.com](mailto:saralondreira@gmail.com)
 
-**6. Create blog posts / projects**
-```
-Add a new .mdx file to src/app/blog/posts or src/app/work/projects
-```
-
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
-
-## Documentation
-
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
-
-## Features
-
-### Once UI
-- All tokens, components & features of [Once UI](https://once-ui.com)
-
-### SEO
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
-
-### Design
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
-
-### Content
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
-
-### Localization
-- A localized, earlier version of Magic Portfolio is available with the next-intl library
-- To use localization, switch to the 'i18n' branch
-
-## Creators
-
-Lorant One: [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
-
-## Get involved
-
-- Join the Design Engineers Club on [Discord](https://discord.com/invite/5EyAQ4eNdS) and share your project with us!
-- Deployed your docs? Share it on the [Once UI Hub](https://once-ui.com/hub) too! We feature our favorite apps on our landing page.
-
-## License
-
-Distributed under the CC BY-NC 4.0 License.
-- Attribution is required.
-- Commercial usage is not allowed.
-- You can extend the license to [Dopler CC](https://dopler.app/license) by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
-
-See `LICENSE.txt` for more information.
-
-## Deploy with Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)
+---
+*Built with Next.js, TypeScript, and Once UI.*
