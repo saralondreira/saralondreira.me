@@ -79,7 +79,6 @@ export default function About() {
         </Column>
       )}
 
-      {/* Este Row deve envolver AMBOS: a barra lateral e o conteúdo principal */}
       <Row fillWidth s={{ direction: "column" }} horizontal="center">
         {about.avatar.display && (
           <Column
@@ -127,7 +126,6 @@ export default function About() {
           </Column>
         )}
 
-        {/* Coluna de Conteúdo Principal */}
         <Column className={styles.blockAlign} flex={9} maxWidth={40}>
           <Column
             id={about.intro.title}
