@@ -31,12 +31,13 @@ Before this platform, the administrative processes suffered from critical ineffi
 
 I architected a **Unified Pedagogical Platform** featuring hierarchical role-based access (Trainees, Trainers, and Coordinators/Mediators). The system centralizes communication, pedagogical documentation, and daily activity tracking into a single secure environment.
 
-### Key Features
+### Key Features & Business Logic
 
+- **Smart Scheduling & Calendar ("The Killer Feature"):** An interactive intelligent calendar allowing trainers to manage their availability (Free/Busy slots), streamlining the complex process of scheduling classes across different modules and courses.
+- **Approval Workflows & State Management:** Implemented strict validation states (e.g., "Submitted", "Validated by Mediator", "Rejected") for daily summaries and document deliveries, ensuring data integrity before final institutional approval.
 - **Secure File Management System:** A modern drag-and-drop file upload interface that replaces physical CDs. Uploaded files (grades, summaries, schedules) are automatically standardized (e.g., `CourseID_Module_Date.pdf`) and stored securely.
-- **Compliance & Tracking Dashboard:** An automated dashboard for coordinators that tracks delivery statuses. The algorithm actively checks deadlines against module completion dates and flags missing documentation in real-time.
-- **Attendance & Daily Activity Logging:** Dedicated modules for trainers to submit daily class summaries, log hours taught, and register student attendance, all subject to validation by mediators.
-- **Role-Based Routing:** Intelligent system architecture that directs users to customized interfaces (Student Dashboard vs. Management Dashboard) based on their assigned role and permissions.
+- **Compliance & Tracking Dashboard:** An automated dashboard for coordinators that tracks delivery statuses. The algorithm actively checks deadlines against module completion dates and flags missing documentation in real-time, drastically reducing non-compliance risks during European funding audits (PESSOAS 2030).
+- **Attendance & Daily Activity Logging:** Dedicated modules for trainers to submit daily class summaries, log hours taught, and register student attendance (Present, Justified/Unjustified Absences).
 
 ## Technical Architecture & Stack
 
