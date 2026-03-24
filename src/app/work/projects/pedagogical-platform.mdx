@@ -1,5 +1,5 @@
 ---
-title: "Pedagogical Platform (In Development)"
+title: "Pedagogical Management Platform (In Development)"
 publishedAt: "2025-03-01"
 images:
   - "/images/projects/projects/pedagogical-platform/plataforma-code.png"
@@ -14,9 +14,9 @@ images:
 
 A centralized web-based Educational Management Platform being developed as my final project for the IEFP Software Engineering specialization. The system is designed to digitalize, optimize, and secure the administrative and pedagogical workflows of professional training institutions, specifically aligning with the modernization guidelines of European-funded programs (like PESSOAS 2030).
 
-<Button href="https://github.com/saralondreira/Plataforma-Gestao-Pedagogica.git" target="_blank">
-  View Code on GitHub
-</Button>
+[**View Code on GitHub ↗**](https://github.com/saralondreira/Plataforma-Gestao-Pedagogica.git)
+
+![Platform Login Interface](/images/projects/projects/pedagogical-platform/login.png)
 
 ## The Challenge
 
@@ -29,23 +29,25 @@ Before this platform, the administrative processes suffered from critical ineffi
 
 I architected a **Unified Pedagogical Platform** featuring hierarchical role-based access (Trainees, Trainers, and Coordinators/Mediators). The system centralizes communication, pedagogical documentation, and daily activity tracking into a single secure environment.
 
+![Platform Control Panel](/images/projects/projects/pedagogical-platform/controlpanel.png)
+
 ### Key Features & Business Logic
 
 - **Smart Scheduling & Calendar ("The Killer Feature"):** An interactive intelligent calendar allowing trainers to manage their availability (Free/Busy slots), streamlining the complex process of scheduling classes across different modules and courses.
 - **Approval Workflows & State Management:** Implemented strict validation states (e.g., "Submitted", "Validated by Mediator", "Rejected") for daily summaries and document deliveries, ensuring data integrity before final institutional approval.
-- **Secure File Management System:** A modern drag-and-drop file upload interface that replaces physical CDs. Uploaded files (grades, summaries, schedules) are automatically standardized (e.g., `CourseID_Module_Date.pdf`) and stored securely.
-- **Compliance & Tracking Dashboard:** An automated dashboard for coordinators that tracks delivery statuses. The algorithm actively checks deadlines against module completion dates and flags missing documentation in real-time, drastically reducing non-compliance risks during European funding audits (PESSOAS 2030).
-- **Attendance & Daily Activity Logging:** Dedicated modules for trainers to submit daily class summaries, log hours taught, and register student attendance (Present, Justified/Unjustified Absences).
+
+![Coordinator Dashboard](/images/projects/projects/pedagogical-platform/dashboard.png)
+
+- **Compliance & Tracking Dashboard:** An automated dashboard for coordinators that tracks delivery statuses. The algorithm actively checks deadlines against module completion dates and flags missing documentation in real-time, drastically reducing non-compliance risks during European funding audits.
+- **Attendance & Daily Activity Logging:** Dedicated modules for trainers to submit daily class summaries, log hours taught, and register student attendance.
+
+![Class Management View](/images/projects/projects/pedagogical-platform/turma.png)
 
 ## Technical Architecture & Stack
 
 The project is built with a full-stack approach, following a structured software development lifecycle:
-
-- **Frontend:** HTML5, CSS3 (Grid/Flexbox), and JavaScript for a responsive, accessible user interface.
+- **Frontend:** HTML5, CSS3 (Grid/Flexbox), and JavaScript for a responsive user interface.
 - **Backend:** Node.js, handling secure file reception, renaming logic, and server-side operations.
-- **Database:** Relational Database (SQL) mapped with complex entity relationships (Users, Roles, Classes, File Deliveries, Summaries, and Attendance).
-- **Design & Prototyping:** UI/UX wireframing and prototyping (Figma/Pen & Paper) prior to development to ensure optimal user journeys.
+- **Database:** Relational Database (SQL) mapped with complex entity relationships.
 
-## Current Status
-
-This project is in active development. Current focus includes transitioning static front-end prototypes into dynamic views, implementing the interactive calendar for availability tracking, and finalizing the relational database schema to support the backend logic.
+![User Profile Management](/images/projects/projects/pedagogical-platform/profile.png)
